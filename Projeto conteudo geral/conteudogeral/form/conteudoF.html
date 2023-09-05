@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleF.css">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <div class="inicio">
+            <a href="/conteudogeral/main/index.html">HTML | CSS</a>
+        </div>
+        <nav>
+            <a href="../heading/heading.html">heading</a> |
+            <a href="conteudoL.html">link img hiperlink</a> |
+            <a href="../form/conteudoF.html">form</a>
+        </nav>
+        <div class="sobre-mim">
+            <a href="#">Sobre mim</a>
+        </div>
+    </header>
+    <h1 class="titulo">Form</h1>
+    <main>
+        <ul class="link">
+            <li>O elemento &lt;form&gt; é usado para criar formulários</li>
+            <li>Nele são inseridos dados que são enviados para o banco de dados do site</li>
+            <li>O elemento &lt;label&gt; define o nome do elemento usado no formulário</li>
+            <li>O elemento &lt;placeholder&gt; é uma breve descrição do que deve ser inserido pelo usuário</li>
+            <li>O elemento &lt;input&gt; é onde todas as informações são inseridas e nele existem vários atributos. <br>Segue a tabela mostrando-os:</li>
+            <img src="../img/tabela-input.png" alt="tabela dos atributos do input">
+            <p>Exemplo de label + placeholder + input:</p>
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="insira o seu nome completo" style="width: 60%;">
+            <h3>Tipo checkbox e radio:</h3>
+            <li>São úteis para inserir dados pré selecionados impedindo o usuário de alterá-los</li>
+            <img src="../img/checkbox-radio.png" alt="exemplo de checkbox e radio" class="checkbox-radio">
+            <li>Radio é utilizado para escolher uma ou mais opções</li>
+            <li>Já o checkbox é utilizado apenas para uma opção</li>
+            <h3>Elementos selct e datalist</h3>
+            <li>O elemento &lt;select&gt; é usado para criar uma lista suspensa</li>
+            <li>Já o elemtno &lt;datalist&gt; cria uma lista com opções pré-definidas que apresenta sugestões <br>para o usuário conforme ele vai digitando</li>
+            <li>Deve inserir a tag &lt;option&gt; para acrescentar uma opção a lista</li>
+            <h3>Tipo textarea:</h3>
+            <li>Define uma caixa de texto onde pode ser inseridos muitas informações</li>
+            <li>Acompanhado dos atributos <i>&quot;rows&quot;</i> quantidades de linhas e <i>&quot;cols&quot;</i> quantidades de colunas</li>
+            <li>Geralmente usado para sugestões e reclamações</li>
+            <p>Exemplo:</p>
+            <p>Insira aquei a sua reclamação e/ou sugestão:</p>
+            <textarea name="message" rows="10" cols="50" placeholder="Deixe aqui a sua mensagem!" required> </textarea>
+        </ul>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    overflow-x: hidden;
+    background-color:lightseagreen;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Kanit', sans-serif;
+}
+header {
+    padding: 10px;
+    background-color: rgba(51, 168, 162, 0.815);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
+}
+nav {
+    font-size: 16px;
+}
+.inicio >a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+nav >a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.sobre-mim >a {
+    height: 100%;
+    border: 1px solid;
+    padding: 3px 20px 3px 20px;
+    border-radius: 0%5px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.sobre-mim>a:hover {
+    background-color: rgb(27, 145, 139);
+
+}
+main {
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+    height: 95vh;
+}
+.titulo {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.conteudo {
+    width: 50%;
+    height: 60vh;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(27, 145, 139, 0.308);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
